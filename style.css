@@ -1,0 +1,105 @@
+/* Impostazioni globali */
+*{
+  box-sizing: border-box;
+  margin :0;
+}
+
+/* Sfondo */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+/* impostazioni foglio di lavoro */
+body > div{
+  width: 1200px;
+  height: 850px;
+  margin: 25px auto;
+  border-radius: 20px;
+  background-color:  rgba(0, 0, 0, 0.5);
+  font-family: Poppins, sans-serif;
+  color: white;
+}
+
+/* Logo e titolo  */
+.logoetesto{
+  text-align: center;
+  margin: auto;
+  height: 265px;
+}
+
+.logo-lim{
+  margin-top: 105px;
+  width: 250px;
+}
+
+div > h1{
+  color: #00dd00;
+  font-weight: 600;
+}
+
+/* centratura foglio di lavoro corpo principale */
+.layoutcore{
+  width: 1000px;
+  margin:8px auto;
+}
+
+/* barra pulsanti navigazione */
+nav > div{
+  background-color: #00dd00;
+  height: 3em;
+}
+
+/* Menu input utente */
+.pulsanti{
+  width: 300px;
+  margin: auto ;
+  padding-top: 13px;
+}
+
+.monopattino{
+  margin-top: 20px;
+}
+/* Nome monopatttino */
+div h2{
+  display: inline-block;
+}
+
+.indirizzo{
+  display: inline-block;
+}
+
+/* Simbolo freccetta */
+.indirizzo:before{
+content: "\21A6";
+}
+
+/* Dicitura pre-distanza */
+.distanza:before{
+   content: "- a "
+ }
+ /* Dicitura post-distanza */
+.distanza:after{
+  content: " metri da te"
+}
+
+/* Barre carica residua batterie */
+#barracarica1{
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #f5b453;
+}
+
+#barracarica2{
+  width: 600px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #1ec31e;
+}
+#barracarica3{
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #be4141;
+}
